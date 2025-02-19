@@ -24,9 +24,12 @@ if __name__ == '__main__':
         user_input = input('You: ')
 
         if user_input.lower() in ['quit', 'exit', 'bye']:
-            print('Chatbot: Goodbye! Take care!')
+            print('Chatbot: Goodbye! take care!')
             break
 
         response = chat_with_together(user_input)
         print(f'Chatbot: {response}')
         print ()
+
+
+
